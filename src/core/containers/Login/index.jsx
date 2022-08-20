@@ -101,8 +101,8 @@ export default class Login extends Component {
     const { formData, isSubmmiting, errorMessage } = this.state
     return (
       <div>
-        <a href="/" className={styles.logo}>
-          <img src="/assets/logo.svg" alt="" />
+        <a href="https://www.polaredge.ai/" className={styles.logo}>
+          <img src="/assets/logo1.jpg" alt="" />
         </a>
         <div className={styles.login}>
           <div className={styles.header}>{t('WELCOME')}</div>
